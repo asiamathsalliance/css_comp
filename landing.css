@@ -121,7 +121,7 @@ body {
   bottom: clamp(12px, 7vh, 80px);
   margin: 0;
   font-family: "CursiveCustom", cursive;
-  font-size: clamp(8rem, 26vw, 23rem);
+  font-size: 450px !important;
   line-height: 0.9;
   color: #0015ff;
   opacity: 0.28;
