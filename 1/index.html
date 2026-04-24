@@ -3,16 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Page 1</title>
+  <title>Intro</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <main class="container">
-    <h1>My First Page</h1>
-    <p>This page is served from folder <code>1</code>.</p>
-    <button id="helloBtn" type="button">Click me</button>
+  <main class="stage" id="stage">
+    <section class="page page-text">
+      <div class="content">
+        <p class="line line-1">hey upper east siders...</p>
+        <p class="line line-2">gossip girl here - and i have</p>
+        <p class="line line-3">the biggest news ever</p>
+      </div>
+      <a class="envelope-link" href="../2/" aria-label="Go to next page">
+        <img class="envelope" src="../envelope.png" alt="Envelope">
+      </a>
+    </section>
+    <section class="page page-cover"></section>
   </main>
-
   <script src="script.js"></script>
 </body>
 </html>

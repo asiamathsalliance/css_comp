@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gossip Landing</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section class="panel panel-landing" id="page2">
+    <nav class="nav">
+      <button class="nav-btn nav-home" id="homeBtn" type="button"><span class="nav-label">home</span></button>
+      <button class="nav-btn nav-tea" id="teaBtn" type="button"><span class="nav-label">tea</span></button>
+      <button class="nav-btn nav-about" id="aboutBtn" type="button"><span class="nav-label">about</span></button>
+    </nav>
+
+    <div class="hero">
+      <h1 class="xoxo">XOXO</h1>
+      <p class="gossip-top">gossip girl</p>
+      <p class="gossip-mark gossip-mark-behind">gossip girl</p>
+      <button class="envelope-trigger" id="envelopeBtn" type="button" aria-label="Go to tea section">
+        <img class="envelope" src="../envelope.png" alt="Envelope">
+      </button>
+    </div>
+  </section>
+
+  <section class="panel panel-tea" id="page3">
+    <div class="tea-scene">
+      <div class="eye-sticky-wrap">
+        <div class="googly-eyes" aria-hidden="true">
+          <div class="eye" data-eye>
+            <div class="pupil" data-pupil></div>
+          </div>
+          <div class="eye" data-eye>
+            <div class="pupil" data-pupil></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="draggable-item envelope-card e1" data-draggable>
+        <button class="tea-envelope-btn" type="button" data-envelope-toggle>
+          <img src="../envelope.png" alt="Envelope with gossip">
+        </button>
+        <div class="paper-note" data-paper>spotted: someone is hiding secrets in plain sight.</div>
+      </div>
+
+      <div class="draggable-item envelope-card e2" data-draggable>
+        <button class="tea-envelope-btn" type="button" data-envelope-toggle>
+          <img src="../envelope.png" alt="Envelope with gossip">
+        </button>
+        <div class="paper-note" data-paper>gossip: this letter was meant for you.</div>
+      </div>
+
+      <div class="draggable-item envelope-card e3" data-draggable>
+        <button class="tea-envelope-btn" type="button" data-envelope-toggle>
+          <img src="../envelope.png" alt="Envelope with gossip">
+        </button>
+        <div class="paper-note" data-paper>xoxo alert: tonight changes everything.</div>
+      </div>
+
+      <div class="draggable-item envelope-card e4" data-draggable>
+        <button class="tea-envelope-btn" type="button" data-envelope-toggle>
+          <img src="../envelope.png" alt="Envelope with gossip">
+        </button>
+        <div class="paper-note" data-paper>whisper: meet me where nobody is looking.</div>
+      </div>
+
+      <div class="draggable-item envelope-card e5" data-draggable>
+        <button class="tea-envelope-btn" type="button" data-envelope-toggle>
+          <img src="../envelope.png" alt="Envelope with gossip">
+        </button>
+        <div class="paper-note" data-paper>breaking: the tea is hotter than ever.</div>
+      </div>
+
+      <div class="draggable-item envelope-card e6" data-draggable>
+        <button class="tea-envelope-btn" type="button" data-envelope-toggle>
+          <img src="../envelope.png" alt="Envelope with gossip">
+        </button>
+        <div class="paper-note" data-paper>rumor: trust no one except your intuition.</div>
+      </div>
+
+      <div class="draggable-item envelope-card e7" data-draggable>
+        <button class="tea-envelope-btn" type="button" data-envelope-toggle>
+          <img src="../envelope.png" alt="Envelope with gossip">
+        </button>
+        <div class="paper-note" data-paper>final note: you know you love me.</div>
+      </div>
+
+      <div class="tea-marquee-wrap" aria-label="Scrolling gossip text">
+        <div class="tea-marquee-track">
+          <span>you know you love me, xoxo gossip girl</span>
+          <span>you know you love me, xoxo gossip girl</span>
+          <span>you know you love me, xoxo gossip girl</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="panel panel-about" id="page4">
+    <nav class="nav about-nav">
+      <button class="nav-btn nav-home" id="homeBtn4" type="button"><span class="nav-label">home</span></button>
+      <button class="nav-btn nav-tea" id="teaBtn4" type="button"><span class="nav-label">tea</span></button>
+      <button class="nav-btn nav-about" id="aboutBtn4" type="button"><span class="nav-label">about</span></button>
+    </nav>
+
+    <div class="phone-stage">
+      <div class="phone-shell">
+        <img class="phone-image" src="../phone.jpg" alt="Nokia phone">
+        <div class="phone-screen">
+          <div class="phone-status">
+            <span class="status-bars">▮▮</span>
+            <span class="status-time">7:04</span>
+          </div>
+          <div class="typed-text" aria-live="polite">
+            <p class="type-line type-line-current" id="typeLineCurrent"></p>
+            <p class="type-line type-line-next" id="typeLineNext"></p>
+          </div>
+          <div class="phone-footer">
+            <span>options</span>
+            <span>send</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
