@@ -4,13 +4,13 @@
 
 @font-face {
   font-family: "NoCursive";
-  src: url("../no_cursiv.otf") format("opentype");
+  src: url("/no_cursiv.otf") format("opentype");
   font-display: swap;
 }
 
 @font-face {
   font-family: "CursiveCustom";
-  src: url("../cursive.ttf") format("truetype");
+  src: url("/cursive.ttf") format("truetype");
   font-display: swap;
 }
 

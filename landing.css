@@ -4,25 +4,25 @@
 
 @font-face {
   font-family: "NoCursive";
-  src: url("../no_cursiv.otf") format("opentype");
+  src: url("/no_cursiv.otf") format("opentype");
   font-display: swap;
 }
 
 @font-face {
   font-family: "CursiveCustom";
-  src: url("../cursive.ttf") format("truetype");
+  src: url("/cursive.ttf") format("truetype");
   font-display: swap;
 }
 
 @font-face {
   font-family: "XoxoFont";
-  src: url("../xoxo-font.otf") format("opentype");
+  src: url("/xoxo-font.otf") format("opentype");
   font-display: swap;
 }
 
 @font-face {
   font-family: "Texting";
-  src: url("../texting.ttf") format("truetype");
+  src: url("/texting.ttf") format("truetype");
   font-display: swap;
 }
 
@@ -451,11 +451,6 @@ body {
   align-items: center;
   font-size: clamp(1.05rem, 1.8vw, 1.45rem);
   line-height: 1;
-}
-
-@keyframes blink {
-  0%, 49% { opacity: 1; }
-  50%, 100% { opacity: 0; }
 }
 
 @media (max-width: 860px) {
