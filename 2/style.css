@@ -117,18 +117,18 @@ body {
 
 .gossip-top {
   position: absolute;
-  left: clamp(24px, 10vw, 170px);
-  top: clamp(34px, 11vh, 150px);
+  right: clamp(14px, 6vw, 90px);
+  bottom: clamp(12px, 7vh, 80px);
   margin: 0;
   font-family: "CursiveCustom", cursive;
-  font-size: clamp(6rem, 16vw, 14rem);
+  font-size: clamp(8rem, 26vw, 23rem);
   line-height: 0.9;
   color: #0015ff;
-  opacity: 0.3;
+  opacity: 0.28;
   transform: rotate(-17deg);
   pointer-events: none;
   user-select: none;
-  z-index: 2;
+  z-index: 1;
 }
 
 .gossip-mark {
@@ -498,9 +498,9 @@ body {
   }
 
   .gossip-top {
-    left: 10px;
-    top: clamp(52px, 10vh, 90px);
-    font-size: clamp(3.7rem, 22vw, 7.2rem);
+    right: 4px;
+    bottom: clamp(18px, 7vh, 46px);
+    font-size: clamp(5rem, 35vw, 10rem);
     transform: rotate(-15deg);
   }
 

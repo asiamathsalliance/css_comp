@@ -8,6 +8,12 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: "CursiveCustom";
+  src: url("../cursive.ttf") format("truetype");
+  font-display: swap;
+}
+
 body {
   margin: 0;
   width: 100vw;
@@ -52,6 +58,14 @@ body {
 
 .line-2 {
   font-size: clamp(1.8rem, 6.4vw, 4.3rem);
+}
+
+.line-2-cursive {
+  font-family: "CursiveCustom", cursive;
+}
+
+.line-2-normal {
+  font-family: "NoCursive", sans-serif;
 }
 
 .line-3 {
